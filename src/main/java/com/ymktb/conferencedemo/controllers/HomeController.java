@@ -19,6 +19,7 @@ public class HomeController {
     public Map getStatus(){
 
         Map map = new HashMap<String,String>();
+        map.put("test","test app");
         map.put("app-version" , appVersion);
 
         return map;
