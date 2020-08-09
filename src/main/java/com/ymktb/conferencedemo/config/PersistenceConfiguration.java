@@ -14,9 +14,9 @@ public class PersistenceConfiguration {
     public DataSource dataSource(){
 
         DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url("jdbc:postgresql://localhost:5434/conference_app");
+        builder.url("jdbc:postgresql://localhost:5432/conference_app");
         builder.username("postgres");
-        builder.password("159963");
+        builder.password("123456");
             System.out.println("!!!!!!!! custom datasource bean !!!!!!");
         return builder.build();
 
