@@ -3,8 +3,7 @@ package com.ymktb.conferencedemo.models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.*;
+
 
 @Entity(name = "event")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
