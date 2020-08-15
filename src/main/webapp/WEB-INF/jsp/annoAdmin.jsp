@@ -30,12 +30,6 @@
                 </tr>
 
                 <tr>
-                    <td><form:label path="photo">
-                        Photo</form:label></td>
-                    <td><form:input  enctype="multipart/form-data"   path="photo"/></td>
-                </tr>
-
-                <tr>
                     <td><input type="submit" value="Submit"/></td>
                 </tr>
             </table>

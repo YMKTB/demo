@@ -17,8 +17,6 @@
         <li>${anno.konu}</li>
         <li>${anno.icerik}</li>
         <li>${anno.gecerliliktarihi}</li>
-        <li>${anno.photo}</li>
-
     </ul>
 </c:forEach>
 

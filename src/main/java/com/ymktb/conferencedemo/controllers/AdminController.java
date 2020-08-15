@@ -32,12 +32,11 @@ public class AdminController {
 
     @RequestMapping(value = "/anno", method = RequestMethod.POST)
     public String setAnno(@Valid @ModelAttribute("anno") Anno anno,
-                          BindingResult result, Model model) {
+                          Model model) {
 
         model.addAttribute("icerik", anno.getIcerik());
         model.addAttribute("konu", anno.getKonu());
         model.addAttribute("gecerliliktarihi", anno.getGecerliliktarihi());
-        model.addAttribute("photo" , anno.getPhoto());
 
         annoRepository.saveAndFlush(anno);
 

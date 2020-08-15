@@ -34,7 +34,6 @@ public class UserController {
         return "annoUser";
     }
 
-
     @RequestMapping(value = "/news", method = RequestMethod.GET)
     public String getNews(@Valid @ModelAttribute("news") News news,
                           Model model) {
